@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1338px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+.hend{
+    width: 100%;
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.box_hend{
+    width: 7.9%;
+ 
+    
+}
+
+/* .box_pricing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+
+.box_hend span{
+    font-size: 36px;
+    color: black;
+}
+
+.box_hend h3{
+    font-size: 36px;
+    color: #939393;
+}
+
+.box1_hend{
+    width: 57.6%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 25px;
+}
+
+:target {
+    background: white
+    
+  }
+
+.box1_hend a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.box2_hend{
+    width: 16.4%;
+ 
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+}
+
+.bars_icon{
+    display: none;
+}
+
+.menu li{
+    list-style: none;
+    
+}
+
+.border_box3_img{
+    width: 43%;
+}
+
+.border_box3_img img{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+       
+       font-size: 18px;
+       padding: 9px;
+       background: white;
+       border-radius: 8px;
+   }
+
+
+.body{
+    width: 100%;
+   
+
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.box_body{
+    width: 48%;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    width: 60%;
+    
+}
+
+.box1 h3{
+    font-size: 66px;
+    margin: 0 4px;
+}
+
+.box1 h4{
+    font-size: 66px;
+    padding: 0 4px;
+}
+
+.box1 p{
+    font-size: 24px;
+    margin: 40px 0;
+}
+
+.button button{
+    width: 52%;
+    background: #263238;
+    color: white;
+}
+
+.box_body1{
+    width: 50%;
+}
+
+.box_body1 img{
+    width: 80%;
+    
+    
+}
+
+
+
+.border{
+    width: 100%;
+   
+   
+}
+
+.border_hend{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.border_hend p{
+    font-size: 48px;
+}
+
+.border_body{
+    width: 100%;
+    margin: 66px 0;
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.border_box{
+    width: 32.5%;
+ 
+    background: #F5F5F5;
+
+}
+
+.border_img{
+    width: 100%;
+}
+
+.border_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.box_border{
+    width: 25.6;
+    display: flex;
+    flex-direction: column;
+    gap: 25px ;
+    margin: 0 25px;
+}
+
+
+.box_border h3{
+    font-size: 35px;
+}
+
+.box_border p{
+    color:#8F95A5;
+  
+}
+
+.border_box1{
+    width: 67.5%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.border_box_hend{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.border_box2 {
+    width: 48%;
+
+    background: #F5F5F5;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    gap: 25px 
+}
+
+
+
+.box2_img{
+    width: 45%;
+ 
+}
+
+.box2_img img{
+    width: 100%;
+}
+
+.border_box2 h3{
+    font-size: 35px;
+}
+
+.border_box2 p{
+    color:#8F95A5;
+ 
+}
+
+.border_box3{
+    width: 99%;
+    background: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: space-between;
+
+}
+
+.box3_border{
+    width: 49%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    gap: 13px;
+    margin: 10px 15px;
+}
+
+.box3_border h3{
+    font-size: 35px;
+}
+
+.box3_border p{
+    color:#8F95A5;
+}
+
+.box3_img{
+    width: 68%;
+   
+   
+}
+
+.box3_img img{
+    width: 100%;
+}
+
+.best{
+
+    width: 100%;
+  
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.best_hend{
+    width: 48%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.best_hend p{
+    font-size: 48px;
+}
+
+.best_hend span{
+    color:  #8F95A5;
+    font-size: 19px;
+ 
+}
+
+.hend_box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.hend_box1{
+    width: 33%; 
+    
+}
+
+.hend_box1 p{
+    font-size: 15px;
+    margin:  0 5px;
+    color:  #8F95A5;
+}
+.hend_box1 h3{
+    font-size: 35px;
+    
+}
+
+.hend_box2{
+    width: 33%; 
+  
+
+}
+
+.hend_box2 p{
+    font-size: 15px;
+    margin:  0 5px;
+    color:  #8F95A5;
+}
+
+.hend_box2 h3{
+    font-size: 35px;
+    margin: 0 12px;
+}
+
+.hend_box3{
+    width: 33%; 
+  
+
+}
+
+.hend_box3 p{
+    font-size: 15px;
+    margin:  0 5px;
+    color:  #8F95A5;
+}
+
+.hend_box3 h3{
+    font-size: 35px;
+    margin: 0 50px;
+}
+
+.best_body{
+    width: 45%;
+    height: 350px;
+
+   
+   
+}
+
+.best_body img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain
+}
+
+.pricing{
+    width: 100%;
+  
+   
+}
+
+.pricing_hend{
+    width: 100%;
+    text-align: center;
+}
+
+.pricing_hend p{
+    font-size: 48px;
+}
+
+.pricing_body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+}
+.pricing_box{
+    width: 30%;
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img_box{
+    width: 100%;
+    
+    
+}
+
+.img_box img{
+    width: 100%;
+    height: 100%;
+}
+.pricing_box2{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+ .h4{
+    width: 50%;
+    background: #EEEEEE;
+
+
+} 
+ .h4 h4{
+    font-size: 15px;
+    color: #546269;
+} 
+.h4 span{
+    font-size: 20px;
+    color: black    ;
+} 
+.pricing_box2 p{
+    color: #8F95A5;
+}
+.pricing_box2 h3{
+    font-size: 27px;
+} 
+
+
+.img_box1{
+    width: 100%;
+   
+    
+}
+
+.img_box1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.pricing_box3{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact{
+    width: 100%;
+    margin:30px 0;
+}
+
+.contact_box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contact_body{
+    width: 35.6%;
+
+}
+
+.contact_body img{
+    width: 70%;
+    
+}
+
+.contact_body1{
+    width: 64%;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.contact_body1 p{
+    font-size: 48px;
+}
+
+.contact_body1 span{
+    font-size: 20px;
+    color: #8F95A5;
+}
+
+input{
+    width: 48%;
+    height: 80px ;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.input_box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+/* 
+.button1 button{
+    width: 200px;
+    height: 80px;
+    background: #263238;
+    color: white;
+
+   
+} */

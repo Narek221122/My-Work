@@ -1,0 +1,385 @@
+
+@media (min-width: 1338px) {
+    .container {
+      width: 90%;
+      padding: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 992px){
+
+    .box1 h4 {
+        font-size: 49px;
+        
+    }
+
+    
+.h4 {
+    width: 80%;
+    background: #EEEEEE;
+}
+    .box1 h3 {
+        font-size: 57px;
+        margin: 0 11px;
+    }
+    
+    .box1 p {
+        font-size: 21px;
+        margin: 25px 0;
+    }
+    .box_body1 img {
+        width: 64%;
+    }
+   
+
+    
+    }
+    .contact_body img {
+        width: 92%;
+    }
+    .contact_box {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .pricing_body {
+        width: 92%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .border_box1 {
+        width: 61.5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 15px;
+    }
+    .box_pricing {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .pricing_box2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 15px;
+    }
+    .border_box3_img {
+        width: 37%;
+    }
+    .pricing_box {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        padding: 0 15px;
+    }
+  
+
+  @media only screen and (max-width: 767px){
+    .border_box3_img img {
+        width: 100%;
+        height: 54%;
+        object-fit: cover;
+    }
+    .body {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px 0;
+    } 
+    .bars_icon{
+        display: block;
+        font-size: 25px;
+    }
+    .box1_hend {
+        width: 57.6%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: self-end;
+        gap: 0px 25px;
+        margin: 0 66px;
+    }
+    .menu{
+        display: none;
+    }
+    .box2_hend button {
+        display: none;
+       
+    }
+    button {
+        width: 51%;
+        font-size: 26px;
+        padding: 9px;
+        background: black;
+        color: white;
+        border-radius: 8px;
+        margin: auto;
+    }
+    .border_box3_img {
+       width: 100%;
+    }
+    
+    .border_box3_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    
+    .border_box3 {
+        width: 100%;
+        background: #F5F5F5;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        /* justify-content: space-between; */
+    }
+    .box1_hend {
+        width: 57.6%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0px 25px;
+    }
+
+    .border_box3_img {
+        width: 44%;
+    }
+    .box_body1 img {
+        width: 88%;
+    }
+    .pricing_box2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 15px;
+    }
+    .pricing_box {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        padding: 0 15px;
+    }
+
+  }
+
+  @media only screen and (max-width: 575px){
+
+    .body {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin: 15px 0;
+    }
+    .box1 h3 {
+        font-size: 36px;
+        margin: 0 11px;
+    }
+    .box1 h4 {
+        font-size: 36px;
+    }
+
+    .box1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box_body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bars_icon {
+        display: block;
+        font-size: 34px;
+    }
+
+    .border {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .border_box {
+        width: 94.5%;
+        background: #F5F5F5;
+    }
+    .box2_img {
+        width: 100%;
+    }
+    .border_box1 {
+        width: 94.5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 15px;
+    }
+    .border_box2 {
+        width: 100%;
+        background: #F5F5F5;
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        gap: 25px;
+        margin: 15px 0;
+    }
+    .box3_img {
+        width: 100%;
+    }
+    .box_body1 {
+        width: 100%;
+    }
+    .border_box3_img {
+        width: 100%;
+    }
+    .box3_border {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        margin: 10px 15px;
+    }
+    .best {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        
+    
+        }
+
+        .best_body {
+            width: 100%;
+           
+        }
+        .pricing_box2 {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding: 0px 15px;
+        }
+        .pricing_box {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+            padding: 0 15px;
+        }
+        .best_hend {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 15px;
+        }
+        .contact_body {
+            width: 100%;
+        }
+        .input_box {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .contact_body1 p {
+            font-size: 68px;
+        }
+        .contact_body1 span {
+            font-size: 18px;
+            color: #8F95A5;
+        }
+        
+        .pricing_body {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        input {
+            width: 100%;
+           
+            border: 1px solid #8F95A5;
+            border-radius: 10px;
+            padding: 25px;
+        }
+        button {
+            width: 100%;
+            font-size: 30px;
+            padding: 15px;
+            background: black;
+            color: white;
+            border-radius: 8px;
+            margin: 0px 28px;
+        }
+        .contact {
+            width: 100%;
+            margin: 30px 44px;
+        }
+  }
+
+  @media only screen and (max-width: 320px){
+
+    .box1_hend{
+        width: 40%;
+    }
+    .border_box {
+        width: 100%;
+        background: #F5F5F5;
+    }
+    .contact_body1 p {
+        font-size: 31px;
+    }
+    .contact_body1 span {
+        font-size: 10px;
+        color: #8F95A5;
+    }
+    input {
+        width: 100%;
+        height: 50px;
+        border: 1px solid #8F95A5;
+        border-radius: 10px;
+        padding: 25px;
+    }
+    button {
+        width: 100%;
+        font-size: 29px;
+        padding: 6px;
+        background: black;
+        color: white;
+        border-radius: 8px;
+        margin: 0px 4px;
+    }
+    .button button {
+        width: 86%;
+        background: #263238;
+        color: white;
+    }
+    .box_border {
+        width: 25.6;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+         margin: 0 0;
+    }
+    .border_box1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 15px;
+    }
+  }
